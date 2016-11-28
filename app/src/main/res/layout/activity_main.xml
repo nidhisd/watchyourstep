@@ -1,0 +1,68 @@
+<AbsoluteLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType = "centerCrop"
+        android:background="@android:color/holo_blue_dark" />
+
+    <Button
+        android:layout_width="155dp"
+        android:layout_height="wrap_content"
+        android:text="Reset"
+        android:id="@+id/resetCounter"
+        android:layout_x="108dp"
+        android:layout_y="385dp"
+        android:onClick="onClickResetButton"
+        android:fontFamily="sans-serif" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Steps Recorded:"
+        android:id="@+id/textView"
+        android:layout_x="51dp"
+        android:layout_y="11dp"
+        android:textSize="35sp"
+        android:textColor="@android:color/black"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:text="Miles Walked: "
+        android:layout_width="292dp"
+        android:layout_height="78dp"
+        android:layout_x="66dp"
+        android:layout_y="198dp"
+        android:id="@+id/textView2"
+        android:textColor="@android:color/black"
+        android:textSize="34sp"
+        android:fontFamily="sans-serif-smallcaps" />
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/miles"
+        android:gravity="center"
+        android:layout_x="18dp"
+        android:layout_y="280dp"
+        android:textColor="@android:color/black"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:singleLine="true"
+        android:text="0" />
+
+    <TextView
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/count"
+        android:gravity="center"
+        android:layout_x="56dp"
+        android:layout_y="91dp"
+        android:textColor="@android:color/black"
+        android:textSize="@android:dimen/notification_large_icon_height"
+        android:singleLine="true"
+        android:text="0" />
+
+
+</AbsoluteLayout>
